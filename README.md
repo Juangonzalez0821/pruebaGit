@@ -10,7 +10,7 @@ Este repositorio contiene un proyecto de un gestor de tareas que te permitirá o
   - Uso
 
 - **Cursos**
-  - Introducción a la Programación
+  - programacion HTML
   - Desarrollo Web
   - Gestión del Tiempo
 
