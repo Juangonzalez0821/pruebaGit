@@ -1,0 +1,25 @@
+/* Estilos divertidos */
+
+body {
+    background-image: url('fondo-divertido.jpg'); /* Reemplaza con la ruta a tu imagen de fondo */
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  h1 {
+    color: purple;
+    text-shadow: 2px 2px 4px #000;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
