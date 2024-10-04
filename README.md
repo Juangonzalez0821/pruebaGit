@@ -51,4 +51,5 @@ Si tienes alguna pregunta o necesitas más información, no dudes en contactarme
 
 Correo: pinkman0821@gmail.com
 GitHub: Juangonzalez0821
+
 ¡Gracias por visitar mi repositorio!
