@@ -1,0 +1,53 @@
+/* Fondo de pantalla */
+body {
+    background-color: #1b1b2f;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+/* Contenedor retro con fondo y bordes neón */
+.retro-form {
+    background-color: #212f45;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9), 0 0 30px #00ffd5;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #00ffd5;
+}
+
+/* Estilo del título con efecto neón */
+.neon-text {
+    color: #ff006e; /* Color del texto del título */
+    text-shadow: 0 0 5px #ff006e, 0 0 10px #ff006e, 0 0 20px #ff006e; /* Efecto de neón */
+}
+
+/* Inputs con efecto neón */
+.neon-input {
+    background-color: #1b1b2f; /* Fondo de los inputs */
+    color: #00ffd5; /* Color del texto */
+    border: 2px solid #00ffd5; /* Borde de los inputs */
+    box-shadow: 0 0 10px #00ffd5; /* Efecto de neón */
+}
+
+.neon-input:focus {
+    background-color: #212f45; /* Fondo del input en foco */
+    color: #ff006e; /* Color del texto en foco */
+    border-color: #ff006e; /* Color del borde en foco */
+    box-shadow: 0 0 10px #ff006e; /* Efecto de neón en foco */
+}
+
+/* Botón con efecto neón */
+.neon-button {
+    background-color: #00ffd5; /* Color de fondo del botón */
+    color: #1b1b2f; /* Color del texto del botón */
+    border: none;
+    box-shadow: 0 0 10px #00ffd5, 0 0 20px #00ffd5, 0 0 40px #00ffd5; /* Efecto de neón */
+}
+
+.neon-button:hover {
+    background-color: #ff006e; /* Color de fondo en hover */
+    color: #ffffff; /* Color del texto en hover */
+    box-shadow: 0 0 10px #ff006e, 0 0 20px #ff006e, 0 0 40px #ff006e; /* Efecto de neón en hover */
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción JS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        input {
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            width: calc(50% - 22px); /* Ajusta el ancho */
+        }
+        input:focus {
+            border-color: #28a745;
+            outline: none;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #007BFF;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        #resultado {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <input type="text" id="Nombre" placeholder="Introduce tu nombre">
+        <br>
+        <button onclick="Saludar()">Saludar</button>
+        <br><br>
+
+        <input type="number" id="Num1" placeholder="Introduce tu número 1">
+        <input type="number" id="Num2" placeholder="Introduce tu número 2">
+        <br>
+        <p id="resultado"></p>
+    </div>
+        
+<script src="script.JS" ></script>
+    <script>
+        function Saludar() {
+            const NombreUsuario = document.getElementById("Nombre").value;
+            alert("Hola " + NombreUsuario);
+        }
+
+        function suma() {
+            const num1 = parseFloat(document.getElementById("Num1").value) || 0; // Evitar NaN
+            const num2 = parseFloat(document.getElementById("Num2").value) || 0; // Evitar NaN
+            const resultado = num1 + num2;
+            document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
+        }
+
+        // Añadimos el evento 'input' para calcular la suma al soltar la tecla
+        document.getElementById("Num1").addEventListener("input", suma);
+        document.getElementById("Num2").addEventListener("input", suma);
+
+        const elevacion = (a, b) => a ** b;
+        console.log(elevacion(2, 3));
+
+        function Division(c, d) {
+            if (d == 0) {
+                return "No se puede dividir por cero";
+            } else {
+                return c / d;
+            }
+        }
+        console.log(Division(20, 0));
+    </script>
+</body>
+</html>

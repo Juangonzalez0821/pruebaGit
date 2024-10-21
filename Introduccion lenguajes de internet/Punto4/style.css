@@ -1,0 +1,73 @@
+/* Fondo de pantalla */
+body {
+    background-color: #1b1b2f;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+/* Contenedor retro con fondo y bordes neón */
+.retro-form {
+    background-color: #212f45;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9), 0 0 30px #00ffd5;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #00ffd5;
+}
+
+/* Estilo del título con efecto neón */
+.neon-text {
+    color: #ff006e;
+    text-shadow: 0 0 5px #ff006e, 0 0 10px #ff006e, 0 0 20px #ff006e;
+}
+
+/* Inputs con efecto neón */
+.neon-input {
+    background-color: #1b1b2f;
+    color: #00ffd5;
+    border: 2px solid #00ffd5;
+    box-shadow: 0 0 10px #00ffd5;
+}
+
+.neon-input:focus {
+    background-color: #212f45;
+    color: #ff006e;
+    border-color: #ff006e;
+    box-shadow: 0 0 10px #ff006e;
+}
+
+/* Botón con efecto neón */
+.neon-button {
+    background-color: #00ffd5;
+    color: #1b1b2f;
+    border: none;
+    box-shadow: 0 0 10px #00ffd5, 0 0 20px #00ffd5, 0 0 40px #00ffd5;
+}
+
+.neon-button:hover {
+    background-color: #ff006e;
+    color: #ffffff;
+    box-shadow: 0 0 10px #ff006e, 0 0 20px #ff006e, 0 0 40px #ff006e;
+}
+
+/* Lista de tareas estilo retro */
+.list-group-item {
+    background-color: #1b1b2f;
+    color: #00ffd5;
+    border: 1px solid #00ffd5;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list-group-item .delete-btn {
+    background-color: #ff006e;
+    color: #ffffff;
+    border: none;
+    float: right;
+}
+
+.list-group-item .delete-btn:hover {
+    background-color: #ff4f7d;
+}
